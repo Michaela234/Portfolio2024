@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="projectTitle">
+        <span class="line5"></span>
+    <span class="line6"></span>
+        <h1 class="projectTitle__title">
+            In-mood
+        </h1>
+    </section>
+    <section class="container">
+        <section class="scrollSpy">
+            <a class="scrollSpy__link" href="#project" >Projekt</a>
+            <a class="scrollSpy__link" href="#compare">Før & efter</a>
+            <a class="scrollSpy__link" href="#variables">Designsystemer</a>
+            <a class="scrollSpy__link" href="#autolayout">Autolayout</a>
+            <a class="scrollSpy__link" href="#components">Components</a>
+            <a class="scrollSpy__link" href="#animations">Animationer</a>
+        </section>
+        <main class="main">
+            <section class="content__container" id="project">
+                    <video class="project__video" autoplay muted loop>
+                    <source src="inMood_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+            </section>
+
+            <section class="content__container content__container--even" id="compare">
+                <section class="content__images">
+                    <section class="">
+                        <h2 class="content__heading">
+                            Før
+                        </h2>
+                        <img class="content__image" src="images/inMood_before.png" alt="">
+                    </section>
+                    <section class="">
+                        <h2 class="content__heading">
+                            Efter
+                        </h2>
+                        <img class="content__image" src="images/inMood_after.png" alt="">
+                    </section>
+                </section>
+            </section>
+
+            <section class="content__container" id="variables">
+                    <h2 class="content__heading">
+                        Designsystemer
+                    </h2>
+                    <p class="content__paragraph">
+                        Jeg udviklede et designsystem i Figma med variabler for tekst og spacing for at sikre konsistens i designet. At arbejde med variabler i Figma giver mulighed for hurtigere justeringer og lettere opdateringer, da ændringer automatisk kan anvendes på tværs af komponenter.
+                    </p>
+                    <section class="content__images content__imageWrapper">
+                        <img class="content__image image" src="images/Spacing.png" alt="">
+                        <img class="content__image image" src="images/spcing_variables.png" alt="">
+                    </section>
+                    <img class="content__image" src="images/text_tokens.png" alt="">
+                    
+            </section>
+
+            <section class="content__container content__container--even" id="autolayout">
+                    <h2 class="content__heading">
+                        Autolayout
+                    </h2>
+                    <p class="content__paragraph">
+                        For at forbedre effektiviteten i designprocessen integrerede jeg Auto Layout i Figma. Auto Layout muliggør responsive komponenter, der automatisk tilpasser sig indhold og sikrer konsistent spacing og alignment. Ved at kombinere Auto Layout med designsystemets variabler kan jeg hurtigt justere designs, hvilket letter overgangen fra design til udvikling.
+                    </p>
+                    <img class="content__image" src="images/spacing_outline.png" alt="">
+            </section>
+
+            <section class="content__container" id="components">
+                <h2 class="content__heading">
+                    Components
+                </h2>
+                <p class="content__paragraph">
+                    For at forbedre designprocessen fokuserede jeg på at oprette components i Figma. Components muliggør genbrug af designelementer, hvilket sikrer konsistens og sparer tid ved opdateringer. Ved at ændre én instans kan jeg hurtigt justere det overordnede design, hvilket gør overgangen fra design til udvikling mere effektiv og opretholder et ensartet udtryk i projektet.
+                </p>
+                <img class="content__image" src="images/components.png" alt="">
+            </section>
+
+            <section class="content__container content__container--even" id="animations">
+                    <h2 class="content__heading">
+                        Animationer
+                    </h2>
+                    <p class="content__paragraph">
+                        At lave animationer i Figma forbedrer brugeroplevelsen ved at skabe dynamiske og engagerende interaktioner. Dette gør det lettere at eksperimentere med bevægelser og kommunikere designideen til udviklingsteamet.
+                    <p class="content__paragraph">
+                    Brugen af animationer og microinteractions på hjemmesider fremhæver handlinger og giver direkte feedback til brugerne. Dette øger engagementet ved at gøre navigationen mere intuitiv og hjælper med at fokusere opmærksomheden på vigtige elementer, hvilket forbedrer chancerne for interaktion.
+                    </p>
+                    <video class="content__video" autoplay muted loop>
+                        <source src="inMood_hero.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video class="content__video" autoplay muted loop>
+                        <source src="inMood_categoryCards.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video class="content__video" autoplay muted loop>
+                        <source src="inMood_productCards.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+            </section>
+        </main>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

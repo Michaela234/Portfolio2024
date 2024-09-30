@@ -1,0 +1,84 @@
+.game{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 64px 128px;
+    margin-top: 24px;
+    border-radius: 8px;
+    box-shadow: 120px 182px 61px 0px rgba(0, 0, 0, 0.00), 77px 116px 56px 0px rgba(0, 0, 0, 0.01), 43px 65px 47px 0px rgba(0, 0, 0, 0.05), 19px 29px 35px 0px rgba(0, 0, 0, 0.09), 5px 7px 19px 0px rgba(0, 0, 0, 0.10);
+}
+.game__heading {
+    font-size: 32px;
+    font-weight: 200;
+    text-align: center;
+    color: #7a2de2;
+}
+
+.choices {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.choices button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.choices__icon{
+    fill: #333;
+    transition: fill 0.3s ease;
+}
+.choices__icon:hover {
+    fill: #7a2de2;
+}
+
+.playerDisplay, .computerDisplay, .resultDisplay, .scores {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.scores {
+    margin-top: 10px;
+}
+.scores p {
+    margin: 5px;
+}
+.resultTitle{
+    font-size: 42px;
+    font-weight: 200;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+    width: 298px;
+}
+.playerDisplay{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.computerDisplay{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon{
+    width: 32px;
+    align-self: center;
+}
+.icon--computer{
+    transform: scaleX(-1);
+}
+.result{
+    margin-top: 24px;
+}
+.counterDisplay{
+    display: flex;
+    width: 100%;
+    gap: 96px;
+    justify-content: center;
+}
